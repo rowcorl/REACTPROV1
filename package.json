@@ -10,7 +10,7 @@
     "web": "expo start --web",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "build": "typescript build"
   },
   "dependencies": {
     "expo": "~52.0.11",
